@@ -3,10 +3,9 @@ package pack2;
 
 public class student{
 
-   private int rollno;
+   private  int rollno;// child class bana k bhi access nahi ho payega 
    private String name;
-
-   public void setname(String nm)
+ protected  void setname(String nm)
    {
     name=nm;
    }
@@ -25,6 +24,8 @@ public class student{
    {
     return rollno;
    }
+
+ 
 
 
 }

@@ -8,9 +8,12 @@ import pack2.student;
  * In this ,we are learning about how to use classes from other packages (pack2) in our class (pack1)
  */
 public class example{
+
+  
     public static void main (String args[])
     {
         pack2.student ritik=new pack2.student();
+       
       ritik.setname("Ritik sir");
       ritik.setRoll(112);
       System.out.println(ritik.getRoll());
